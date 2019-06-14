@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Board">
+        <attr name="blockSpacing" format="dimension"/>
+        <attr name="blockDrawable1x1" format="reference|color"/>
+        <attr name="blockDrawable1x2a" format="reference|color"/>
+        <attr name="blockDrawable1x2b" format="reference|color"/>
+        <attr name="blockDrawable1x2c" format="reference|color"/>
+        <attr name="blockDrawable1x2d" format="reference|color"/>
+        <attr name="blockDrawable2x1a" format="reference|color"/>
+        <attr name="blockDrawable2x1b" format="reference|color"/>
+        <attr name="blockDrawable2x1c" format="reference|color"/>
+        <attr name="blockDrawable2x1d" format="reference|color"/>
+        <attr name="blockDrawable2x2" format="reference|color"/>
+    </declare-styleable>
+</resources>

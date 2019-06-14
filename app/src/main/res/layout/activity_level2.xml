@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".Level2Activity"
+    android:background="@drawable/road">
+
+    <com.example.zhenjiuUFO.Board
+        android:id="@+id/main_Board"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:blockDrawable1x1="@mipmap/che5"
+        app:blockDrawable1x2a="@mipmap/che1"
+        app:blockDrawable1x2b="@mipmap/che7"
+        app:blockDrawable1x2c="@mipmap/che1"
+        app:blockDrawable2x1a="@mipmap/che6"
+        app:blockDrawable2x1b="@mipmap/che4"
+        app:blockDrawable2x2="@mipmap/ufo"
+        app:blockSpacing="3dp" />
+
+    <Button
+        android:id="@+id/next_btn"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/restart_icon"
+        android:onClick="restart" />
+
+    <TextView
+        android:id="@+id/showSteps"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_alignStart="@+id/main_Board"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentBottom="true"
+        android:text="0"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
